@@ -6,7 +6,7 @@ function Send-SCCMSlackNotification {
         [String]$Component, #%msgcomp
         [String]$Severity,#%msgsev
         [String]$MessageDescription, #%msgdesc
-        [String]$SlackChannel = "#ak-test"
+        [String]$SlackChannel = "#general"
     )
 
     Begin {
